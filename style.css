@@ -1,0 +1,52 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(33, 17, 48);
+    margin-bottom: 1em;
+}
+
+#calculadora {
+    background-color: rgb(226, 152, 233);
+}
+
+#calculadora div {
+    display: flex;
+}
+
+#calculadora button {
+    padding: 2em 2.5em;
+    margin: 1em;
+    
+    font-weight: 800;
+    background-color: rgb(212, 106, 177);
+}
+
+#calculadora #igual {
+    font-weight: 200;
+    background-color: rgb(165, 84, 84);
+}
+
+#resultado {
+    width: 21em;
+}
+
+main {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    background-color: rgb(209, 200, 163);
+}
+
+#calculadora #limpar {
+    padding: 1.2em;
+}

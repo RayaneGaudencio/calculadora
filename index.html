@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculdadora</h1>
+        <section id="calculadora">
+                <div>
+                    <button id="nove" onclick="adicionarTeclaAoArray('9')">9</button>
+                    <button id="oito" onclick="adicionarTeclaAoArray('8')">8</button>
+                    <button id="sete" onclick="adicionarTeclaAoArray(7)">7</button>
+                    <button id="limpar" onclick="limpar()">Limpar</button>
+                </div>
+                <div>
+                    <button id="quatro" onclick="adicionarTeclaAoArray('4')">4</button>
+                    <button id="cinco" onclick="adicionarTeclaAoArray('5')">5</button>
+                    <button id="seis" onclick="adicionarTeclaAoArray('6')">6</button>
+                    <button id="resto" onclick="adicionarTeclaAoArray('%')">%</button>
+                </div>
+                <div>
+                    <button id="um" onclick="adicionarTeclaAoArray('1')">1</button>
+                    <button id="dois" onclick="adicionarTeclaAoArray('2')">2</button>
+                    <button id="tres" onclick="adicionarTeclaAoArray('3')">3</button>
+                    <button id="divisao" onclick="adicionarTeclaAoArray('/')">÷</button>
+                </div>
+                <div>
+                    <button id="zero" onclick="adicionarTeclaAoArray('0')">0</button>
+                    <button id="mais" onclick="adicionarTeclaAoArray('+')">+</button>
+                    <button id="menos" onclick="adicionarTeclaAoArray('-')">-</button>
+                    <button id="multiplicacao" onclick="adicionarTeclaAoArray('*')">X</button>
+                </div>
+                <div>
+                    <button id="igual" onclick="calcularResultado()">=</button>
+                    <button id="resultado"></button>
+                </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
